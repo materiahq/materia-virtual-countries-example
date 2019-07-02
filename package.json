@@ -2,18 +2,14 @@
 	"name": "virtual-entity-example",
 	"version": "1.0.0",
 	"description": "Sample application showing the use of a virtual entity",
+	"author": "team@getmateria.com",
+	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
 		"postinstall": "materia relink",
 		"start": "materia start"
 	},
 	"dependencies": {
-		"@materia/server": ">=1.0.0-beta.1"
-	},
-	"engines": {
-		"node": ">= 4.3.2"
-	},
-	"author": "",
-	"license": "MIT",
-	"devDependencies": {}
+		"@materia/server": ">=1.0.1"
+	}
 }
