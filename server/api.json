@@ -1,0 +1,19 @@
+[
+	{
+		"method": "get",
+		"url": "/zadzadazd",
+		"controller": "default",
+		"action": "getazdazd",
+		"params": [
+			{
+				"name": "test",
+				"type": "text",
+				"required": true,
+				"component": "input"
+			}
+		],
+		"permissions": [
+			"Anyone"
+		]
+	}
+]

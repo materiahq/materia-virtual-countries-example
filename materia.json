@@ -1,0 +1,10 @@
+{
+	"name": "Virtual Entity Example",
+	"icon": "blue-400",
+	"server": {
+		"host": "localhost",
+		"port": 8080,
+		"ssl": false
+	},
+	"links": []
+}

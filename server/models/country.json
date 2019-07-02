@@ -1,0 +1,50 @@
+{
+	"id": "25107d1c-4922-4daa-92c8-6c7d32aa3d39",
+	"fields": [
+		{
+			"name": "name",
+			"type": "text",
+			"read": true,
+			"write": true,
+			"required": true,
+			"component": "input"
+		},
+		{
+			"name": "alpha2code",
+			"type": "text",
+			"read": true,
+			"write": true,
+			"required": true,
+			"component": "input"
+		},
+		{
+			"name": "alpha3code",
+			"type": "text",
+			"read": true,
+			"write": true,
+			"required": true,
+			"component": "input"
+		},
+		{
+			"name": "nativeName",
+			"type": "text",
+			"read": true,
+			"write": true,
+			"required": true,
+			"component": "input"
+		}
+	],
+	"relations": [],
+	"queries": [
+		{
+			"id": "azdazd",
+			"type": "custom",
+			"opts": {
+				"params": [],
+				"action": "azdazd",
+				"model": "country"
+			}
+		}
+	],
+	"virtual": true
+}
