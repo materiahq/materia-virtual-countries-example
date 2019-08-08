@@ -37,11 +37,11 @@
 	"relations": [],
 	"queries": [
 		{
-			"id": "azdazd",
+			"id": "list",
 			"type": "custom",
 			"opts": {
 				"params": [],
-				"action": "azdazd",
+				"action": "list",
 				"model": "country"
 			}
 		}
