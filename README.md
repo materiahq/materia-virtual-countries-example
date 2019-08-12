@@ -1,5 +1,7 @@
 # Materia Virtual Countries Example
 
+![Preview](https://raw.githubusercontent.com/materiahq/materia-virtual-countries-example/master/preview.PNG)
+
 This repository is a [Materia](https://getmateria.com) sample application. It demonstrates the use of a virtual entity, by implementing the [Rest Countries](https://restcountries.eu) API.
 
 
