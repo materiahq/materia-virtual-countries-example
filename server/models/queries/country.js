@@ -18,6 +18,18 @@ class CountryModel {
 
 		});
 	}
+
+    filterByCapitalName(params) {
+		return new Promise((resolve, reject) => {
+            request({url: `https://restcountries.eu/rest/v2/capital/${params.capital}`, json: true}, (err, response, body) => {
+				if (err) {
+					return reject(err);
+				}
+				resolve(body);
+			})
+
+		});
+	}
 	
 }
 

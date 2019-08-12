@@ -44,6 +44,22 @@
 				"action": "list",
 				"model": "country"
 			}
+		},
+		{
+			"id": "filterByCapitalName",
+			"type": "custom",
+			"opts": {
+				"params": [
+					{
+						"name": "capital",
+						"type": "text",
+						"required": true,
+						"component": "input"
+					}
+				],
+				"action": "filterByCapitalName",
+				"model": "country"
+			}
 		}
 	],
 	"virtual": true
